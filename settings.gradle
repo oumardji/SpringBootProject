@@ -1,0 +1,4 @@
+rootProject.name=SpringBootProject
+include ("projectoverview","AccountService", "DataService")
+project(":AccountService").projectDir=file("AccountService")
+project(":DataService").projectDir=file("DataService")
